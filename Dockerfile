@@ -27,5 +27,7 @@ ENV FLASK_APP=process-image.py
 ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_ENV=production
 
+WORKDIR /app
+
 # Activate venv and run Flask
 CMD ["/opt/venv/bin/python", "process-image.py"]
