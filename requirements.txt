@@ -1,0 +1,13 @@
+Flask
+torch
+torchvision
+Pillow
+gunicorn
+numpy
+requests
+transformers
+scipy
+scikit-learn
+flask-cors
+opencv-python
+gdown
