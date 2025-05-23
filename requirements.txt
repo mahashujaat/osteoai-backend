@@ -11,4 +11,3 @@ scikit-learn
 flask-cors
 opencv-python
 gdown
-ythis
