@@ -14,7 +14,7 @@ import pickle
 from model import OsteoCNN  # ✅ Import moved model class
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["https://osteo-ai.vercel.app/:3000", "http://192.168.18.71:3000"]}})
+CORS(app, resources={r"/*": {"origins": ["https://osteo-ai.vercel.app", "http://192.168.18.71:3000"]}})
 logging.basicConfig(level=logging.DEBUG)
 
 from model import OsteoCNN
